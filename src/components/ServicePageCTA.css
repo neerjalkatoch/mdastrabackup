@@ -1,0 +1,188 @@
+/* =============================================
+   ServicePageCTA — Mid-Page CTA Banner
+   Dark gradient background with 3 CTAs
+   ============================================= */
+
+.svc-cta-banner {
+  position: relative;
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d1b69 50%, #1a1a2e 100%);
+  padding: clamp(3rem, 6vw, 4.5rem) 0;
+  overflow: hidden;
+}
+
+/* Ambient glow blobs */
+.svc-cta-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+.svc-cta-glow-left {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(107, 33, 168, 0.6) 0%, transparent 70%);
+  top: -100px;
+  left: -100px;
+}
+
+.svc-cta-glow-right {
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(192, 38, 211, 0.5) 0%, transparent 70%);
+  bottom: -80px;
+  right: -60px;
+}
+
+/* Inner layout — text left, buttons right on desktop */
+.svc-cta-inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.svc-cta-text {
+  flex: 1;
+  max-width: 560px;
+}
+
+.svc-cta-heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.svc-cta-heading .text-gradient {
+  background: linear-gradient(135deg, #c4b5fd 0%, #d8b4fe 50%, #e9d5ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.svc-cta-subtext {
+  font-size: clamp(0.9375rem, 1.4vw, 1.0625rem);
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.65;
+}
+
+/* Buttons container */
+.svc-cta-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  flex-shrink: 0;
+  min-width: 240px;
+}
+
+/* Primary button */
+.svc-cta-btn-primary {
+  background: var(--color-primary);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(107, 33, 168, 0.4);
+  padding: 0.9375rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  transition: all 0.25s ease;
+  justify-content: center;
+}
+
+.svc-cta-btn-primary:hover {
+  background: var(--color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(107, 33, 168, 0.5);
+}
+
+.svc-cta-btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Secondary button */
+.svc-cta-btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.9375rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: all 0.25s ease;
+  justify-content: center;
+}
+
+.svc-cta-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.45);
+  transform: translateY(-1px);
+}
+
+/* Outline/ghost button */
+.svc-cta-btn-outline {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0.875rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  transition: all 0.25s ease;
+  justify-content: center;
+  text-align: center;
+}
+
+.svc-cta-btn-outline:hover {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* =============================================
+   Responsive
+   ============================================= */
+@media (max-width: 1024px) {
+  .svc-cta-inner {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .svc-cta-text {
+    max-width: 640px;
+  }
+
+  .svc-cta-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: unset;
+  }
+}
+
+@media (max-width: 640px) {
+  .svc-cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .svc-cta-btn-primary,
+  .svc-cta-btn-secondary,
+  .svc-cta-btn-outline {
+    width: 100%;
+  }
+
+  .svc-cta-glow-left,
+  .svc-cta-glow-right {
+    width: 250px;
+    height: 250px;
+  }
+}
