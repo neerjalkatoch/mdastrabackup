@@ -31,12 +31,12 @@ const ServiceHero = ({
     { number: '500+', label: 'Clients Served' },
   ],
   primaryCta = {
-    href: 'https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi',
+    href: 'https://booking.mdastra.com/Consultation',
     label: 'Book an Appointment',
   },
   secondaryCta = {
-    href: 'tel:+18557500568',
-    label: 'Contact Us: +1 855-750-0568',
+    href: 'tel:+19199490131',
+    label: 'Contact Us: +1 919 949-0131',
   },
 }) => {
   return (

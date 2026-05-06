@@ -82,12 +82,12 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <a href="https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
+            <a href="https://booking.mdastra.com/Consultation" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
               Book an Appointment
               <ArrowRight size={18} />
             </a>
-            <a href="tel:+18557500568" className="btn btn-secondary btn-lg">
-              Contact Us: +1 855-750-0568
+            <a href="tel:+19199490131" className="btn btn-secondary btn-lg">
+              Contact Us: +1 919 949-0131
             </a>
           </motion.div>
 

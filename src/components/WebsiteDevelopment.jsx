@@ -285,12 +285,12 @@ const WebsiteDevelopment = () => {
         formName="Website Development Consultation"
         stats={webDevStats}
         primaryCta={{
-          href: 'https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi',
+          href: 'https://booking.mdastra.com/Consultation',
           label: 'Book a Free Strategy Call',
         }}
         secondaryCta={{
-          href: 'tel:+18557500568',
-          label: 'Contact Us: +1 855-750-0568',
+          href: 'tel:+19199490131',
+          label: 'Contact Us: +1 919 949-0131',
         }}
       />
 
@@ -347,8 +347,8 @@ const WebsiteDevelopment = () => {
           </>
         }
         subtext="MD Astra builds conversion-ready websites that generate leads, support sales, and scale with your business. Book a free strategy call today."
-        cta1={{ href: 'https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi', label: 'Book a Free Strategy Call' }}
-        cta2={{ href: 'tel:+18557500568', label: 'Call +1 855-750-0568' }}
+        cta1={{ href: 'https://booking.mdastra.com/Consultation', label: 'Book a Free Strategy Call' }}
+        cta2={{ href: 'tel:+19199490131', label: 'Call +1 919 949-0131' }}
         cta3={{ href: '#contact', label: 'Send Us a Message' }}
       />
       <section className="section websitedev-framework" ref={frameworkRef}>
@@ -591,9 +591,9 @@ const WebsiteDevelopment = () => {
                 <Calendar size={18} />
                 Book a Free Website Strategy Call
               </a>
-              <a href="tel:+18557500568" className="btn btn-secondary">
+              <a href="tel:+19199490131" className="btn btn-secondary">
                 <Phone size={18} />
-                Contact Us: +1 855-750-0568
+                Contact Us: +1 919 949-0131
               </a>
             </div>
           </motion.div>

@@ -19,12 +19,12 @@ const ServicePageCTA = ({
   heading,
   subtext,
   cta1 = {
-    href: 'https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi',
+    href: 'https://booking.mdastra.com/Consultation',
     label: 'Book a Free Consultation',
   },
   cta2 = {
-    href: 'tel:+18557500568',
-    label: 'Call +1 855-750-0568',
+    href: 'tel:+19199490131',
+    label: 'Call +1 919 949-0131',
   },
   cta3 = {
     href: '#contact',

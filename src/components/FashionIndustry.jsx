@@ -267,12 +267,12 @@ const FashionIndustry = () => {
         formSubtitle="Built to Drive Brand Demand, Online Sales & Scalable Growth"
         formName="Fashion Marketing Consultation"
         primaryCta={{
-          href: 'https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi',
+          href: 'https://booking.mdastra.com/Consultation',
           label: 'Book a Free Strategy Call',
         }}
         secondaryCta={{
-          href: 'tel:+18557500568',
-          label: 'Contact Us: +1 855-750-0568',
+          href: 'tel:+19199490131',
+          label: 'Contact Us: +1 919 949-0131',
         }}
       />
 
@@ -527,8 +527,8 @@ const FashionIndustry = () => {
           </>
         }
         subtext="If you want stronger brand demand, higher sales, and scalable growth, MD Astra is ready to be your growth partner."
-        cta1={{ href: 'https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi', label: 'Book a Free Strategy Call' }}
-        cta2={{ href: 'tel:+18557500568', label: 'Call +1 855-750-0568' }}
+        cta1={{ href: 'https://booking.mdastra.com/Consultation', label: 'Book a Free Strategy Call' }}
+        cta2={{ href: 'tel:+19199490131', label: 'Call +1 919 949-0131' }}
         cta3={{ href: '#contact', label: 'Send Us a Message' }}
       />
       <Contact />

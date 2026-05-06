@@ -17,10 +17,10 @@ const LeadConnectorForm = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%', height: '100%', minHeight: '610px' }}>
+    <div style={{ width: '100%' }}>
       <iframe
         src="https://api.leadconnectorhq.com/widget/form/0yS4iD4qag7usS0jQ0HD"
-        style={{ width: '100%', height: '100%', border: 'none', borderRadius: '8px' }}
+        style={{ width: '100%', border: 'none', borderRadius: '8px' }}
         id="inline-0yS4iD4qag7usS0jQ0HD"
         data-layout="{'id':'INLINE'}"
         data-trigger-type="alwaysShow"
