@@ -258,7 +258,7 @@ const Header = () => {
           </nav>
 
           <div className="header-actions">
-            <a href="https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi" target="_blank" rel="noopener noreferrer" className="btn btn-primary" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
+            <a href="https://booking.mdastra.com/Consultation" target="_blank" rel="noopener noreferrer" className="btn btn-primary" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
               Book an Appointment
             </a>
             <button
@@ -425,7 +425,7 @@ const Header = () => {
                 Contact Us
               </Link>
 
-              <a href="https://api.leadconnectorhq.com/widget/booking/gb1g0SmK2JJgWjhewUpi" target="_blank" rel="noopener noreferrer" className="btn btn-primary mobile-cta" onClick={() => { setIsMobileMenuOpen(false); window.scrollTo({ top: 0, behavior: 'instant' }); }}>
+              <a href="https://booking.mdastra.com/Consultation" target="_blank" rel="noopener noreferrer" className="btn btn-primary mobile-cta" onClick={() => { setIsMobileMenuOpen(false); window.scrollTo({ top: 0, behavior: 'instant' }); }}>
                 Book an Appointment
               </a>
             </nav>
