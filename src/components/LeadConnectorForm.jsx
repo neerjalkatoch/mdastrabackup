@@ -9,7 +9,6 @@ const LeadConnectorForm = () => {
     document.body.appendChild(script);
 
     return () => {
-      // Clean up script on unmount if needed
       if (document.body.contains(script)) {
         document.body.removeChild(script);
       }
@@ -17,11 +16,11 @@ const LeadConnectorForm = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%' }}>
+    <div style={{ width: '100%', height: '100%' }}>
       <iframe
-        src="https://api.leadconnectorhq.com/widget/form/0yS4iD4qag7usS0jQ0HD"
-        style={{ width: '100%', border: 'none', borderRadius: '8px' }}
-        id="inline-0yS4iD4qag7usS0jQ0HD"
+        src="https://api.leadconnectorhq.com/widget/form/dDvTFDgECVLq4k1LsCBq"
+        style={{ width: '100%', height: '100%', border: 'none', borderRadius: '8px' }}
+        id="inline-dDvTFDgECVLq4k1LsCBq"
         data-layout="{'id':'INLINE'}"
         data-trigger-type="alwaysShow"
         data-trigger-value=""
@@ -29,11 +28,11 @@ const LeadConnectorForm = () => {
         data-activation-value=""
         data-deactivation-type="neverDeactivate"
         data-deactivation-value=""
-        data-form-name="Form 6"
-        data-height="610"
-        data-layout-iframe-id="inline-0yS4iD4qag7usS0jQ0HD"
-        data-form-id="0yS4iD4qag7usS0jQ0HD"
-        title="Form 6"
+        data-form-name="Website Form"
+        data-height="964"
+        data-layout-iframe-id="inline-dDvTFDgECVLq4k1LsCBq"
+        data-form-id="dDvTFDgECVLq4k1LsCBq"
+        title="Website Form"
       ></iframe>
     </div>
   );
