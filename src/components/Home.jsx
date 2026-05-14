@@ -404,10 +404,6 @@ function Home() {
             transition={{ duration: 0.7, delay: 0.3 }}
           >
             <div className="hero-form-card">
-              <div className="hero-form-header">
-                <h3>Book Your Free Strategy Call</h3>
-                <p>Get a tailored growth plan for your business</p>
-              </div>
               <LeadConnectorForm />
             </div>
           </motion.div>

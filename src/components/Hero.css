@@ -54,7 +54,8 @@
 .hero-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 2rem;
 }
 
 .hero-badge {
@@ -193,7 +194,7 @@
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 12px;
-  padding: 2rem;
+  padding: 0.75rem;
   box-shadow:
     0 20px 60px rgba(0, 0, 0, 0.2),
     0 0 0 1px rgba(255, 255, 255, 0.1) inset;

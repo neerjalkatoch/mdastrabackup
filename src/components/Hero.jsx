@@ -100,10 +100,6 @@ const Hero = () => {
           transition={{ duration: 0.7, delay: 0.3 }}
         >
           <div className="hero-form-card">
-            <div className="hero-form-header">
-              <h3>Get Your Free SEO Audit</h3>
-              <p>Transform your online presence with personalized strategies</p>
-            </div>
             <LeadConnectorForm />
           </div>
         </motion.div>
