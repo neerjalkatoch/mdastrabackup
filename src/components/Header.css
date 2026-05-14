@@ -130,12 +130,19 @@
 }
 
 .nav-link--contact {
-  color: var(--color-primary);
+  color: #ffffff;
+  background-color: var(--color-primary);
   font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px; /* Pill shape */
+  box-shadow: 0 4px 10px rgba(107, 33, 168, 0.2);
 }
 
 .nav-link--contact:hover {
-  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(107, 33, 168, 0.3);
 }
 
 /* Services Dropdown */
@@ -217,7 +224,8 @@
   gap: 0.75rem;
 }
 
-.header-actions .btn-primary {
+.header-actions .btn-primary,
+.header-actions .btn-secondary {
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
 }
@@ -323,7 +331,8 @@
     display: flex;
   }
 
-  .header-actions .btn-primary {
+  .header-actions .btn-primary,
+  .header-actions .btn-secondary {
     display: none;
   }
 }

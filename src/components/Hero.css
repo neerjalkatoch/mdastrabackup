@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(6rem, 10vh, 8rem) 0 clamp(5rem, 8vh, 7rem);
+  padding: clamp(4rem, 6vh, 6rem) 0 clamp(4rem, 6vh, 5rem);
   background: var(--color-text);
   overflow: hidden;
 }
@@ -44,9 +44,10 @@
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: 1fr 420px;
+  grid-template-columns: 1.1fr 1fr;
   gap: 3rem;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 2rem;
 }
 
 /* ---- Hero Content (left) ---- */
@@ -407,7 +408,7 @@
    ============================================= */
 @media (max-width: 1200px) {
   .hero-container {
-    grid-template-columns: 1fr 380px;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 }

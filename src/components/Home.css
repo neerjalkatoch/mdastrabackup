@@ -1,4 +1,8 @@
 /* Home Page - Services Section */
+.home-services-section {
+  padding-top: clamp(1rem, 2vw, 2rem);
+}
+
 .home-services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -20,6 +24,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  height: 100%;
 }
 
 .home-service-card:hover {
@@ -79,6 +84,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
+  flex-grow: 1;
 }
 
 .home-service-items li {
@@ -116,6 +122,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .home-framework-card:hover {

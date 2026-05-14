@@ -135,16 +135,12 @@ const Header = () => {
           </Link>
 
           <nav className="nav-desktop">
-            {navLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className={`nav-link ${link.href === '/contact' ? 'nav-link--contact' : ''}`}
-                onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}
-              >
-                {link.label}
-              </Link>
-            ))}
+            <Link href="/" className="nav-link" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
+              Home
+            </Link>
+            <Link href="/about" className="nav-link" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
+              About
+            </Link>
 
             {/* Services Dropdown */}
             <div
@@ -258,6 +254,9 @@ const Header = () => {
           </nav>
 
           <div className="header-actions">
+            <Link href="/contact" className="btn btn-primary" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
+              Contact Us
+            </Link>
             <a href="https://booking.mdastra.com/Consultation" target="_blank" rel="noopener noreferrer" className="btn btn-primary" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
               Book an Appointment
             </a>

@@ -5,6 +5,7 @@
 
 /* Hero */
 .about-hero {
+  padding-top: clamp(1.5rem, 3vw, 2.5rem);
   padding-bottom: 2rem;
 }
 
@@ -93,16 +94,18 @@
 .about-values-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 1.5rem;
 }
 
 .about-value-item {
   display: flex;
   align-items: flex-start;
   gap: 1.25rem;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   border-left: 3px solid var(--color-primary);
   padding-left: 1.5rem;
+  background: var(--color-bg-subtle);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
 }
 
 .about-value-item + .about-value-item {

@@ -73,12 +73,10 @@ const SEOService = () => {
     <main>
       <Hero />
       <CaseStudies featured={seoFeatured} />
-      <Services />
       <Benefits />
       <Solutions />
       <Testimonials />
       <CTA />
-      <WhyChooseUs />
       <FAQ />
       <Contact />
     </main>
