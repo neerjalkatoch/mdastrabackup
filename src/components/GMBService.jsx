@@ -26,6 +26,7 @@ import ServiceHero from './ServiceHero';
 import ServicePageCTA from './ServicePageCTA';
 import Contact from './Contact';
 import CaseStudies from './CaseStudies';
+import ServiceLayout from './ServiceLayout';
 import './GMBService.css';
 
 const gbpFeatured = [
@@ -322,7 +323,7 @@ const GMBService = () => {
   ];
 
   return (
-    <div className="gmb-service-page">
+    <ServiceLayout className="gmb-service-page">
       {/* Hero Section */}
       <ServiceHero
         title={
@@ -668,7 +669,7 @@ const GMBService = () => {
 
       {/* CTA #3 — Contact Form */}
       <Contact />
-    </div>
+    </ServiceLayout>
   );
 };
 

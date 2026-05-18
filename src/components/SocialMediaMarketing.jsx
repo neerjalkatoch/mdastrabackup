@@ -20,6 +20,7 @@ import {
 import ServiceHero from './ServiceHero';
 import ServicePageCTA from './ServicePageCTA';
 import Contact from './Contact';
+import ServiceLayout from './ServiceLayout';
 import './SocialMediaMarketing.css';
 
 const SocialMediaMarketing = () => {
@@ -252,7 +253,7 @@ const SocialMediaMarketing = () => {
   ];
 
   return (
-    <div className="social-media-marketing">
+    <ServiceLayout className="social-media-marketing">
       {/* Hero Section */}
       <ServiceHero
         title={
@@ -583,7 +584,7 @@ const SocialMediaMarketing = () => {
 
       {/* CTA #3 — Contact Form */}
       <Contact />
-    </div>
+    </ServiceLayout>
   );
 };
 

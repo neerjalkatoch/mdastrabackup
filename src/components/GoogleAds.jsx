@@ -27,6 +27,7 @@ import ServiceHero from './ServiceHero';
 import ServicePageCTA from './ServicePageCTA';
 import Contact from './Contact';
 import CaseStudies from './CaseStudies';
+import ServiceLayout from './ServiceLayout';
 import './GoogleAds.css';
 
 const googleAdsFeatured = [
@@ -323,7 +324,7 @@ const GoogleAds = () => {
   ];
 
   return (
-    <div className="google-ads-page">
+    <ServiceLayout className="google-ads-page">
       {/* Hero Section */}
       <ServiceHero
         title={
@@ -672,7 +673,7 @@ const GoogleAds = () => {
 
       {/* CTA #3 — Contact Form */}
       <Contact />
-    </div>
+    </ServiceLayout>
   );
 };
 

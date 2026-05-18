@@ -26,6 +26,7 @@ import {
 import ServiceHero from './ServiceHero';
 import ServicePageCTA from './ServicePageCTA';
 import Contact from './Contact';
+import ServiceLayout from './ServiceLayout';
 import './WebsiteDevelopment.css';
 
 const WebsiteDevelopment = () => {
@@ -270,7 +271,7 @@ const WebsiteDevelopment = () => {
   ];
 
   return (
-    <div className="websitedev-page">
+    <ServiceLayout className="websitedev-page">
       {/* Hero Section */}
       <ServiceHero
         title={
@@ -602,7 +603,7 @@ const WebsiteDevelopment = () => {
 
       {/* CTA #3 — Contact Form */}
       <Contact />
-    </div>
+    </ServiceLayout>
   );
 };
 
